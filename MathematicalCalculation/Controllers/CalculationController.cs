@@ -7,6 +7,7 @@ namespace MathematicalCalculation.Controllers
     [Route("[controller]")]
     public class CalculationController : ControllerBase
     {
+        public int Numero { get; set; }
 
         private readonly ILogger<CalculationController> _logger;
 
